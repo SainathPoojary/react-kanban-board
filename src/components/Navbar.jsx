@@ -4,7 +4,7 @@ import upIcon from "../assets/icons/up.svg";
 import tuneIcon from "../assets/icons/tune.svg";
 
 export default function Navbar({ setGroup, setOrder }) {
-  const [show, setShow] = useState(true);
+  const [show, setShow] = useState(false);
   const dropdownRef = useRef(null);
   const buttonRef = useRef(null);
 
